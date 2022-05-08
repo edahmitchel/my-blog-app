@@ -1,4 +1,4 @@
-const data = [
+ const data = [
     {
         "name":"Marc-André Giroux",
         "title":"GraphQL is a Trap?",
@@ -36,3 +36,4 @@ const data = [
         "length":"3"
     }
 ]
+export default data
