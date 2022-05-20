@@ -1,14 +1,16 @@
 import "./App.css";
+import SideBar from "./components/SideBar";
 import LandingPage from "./pages/LandingPage";
-
+import CssBaseline from '@mui/material/CssBaseline';
 
 
 
 function App() {
   return (
     <>
-    <LandingPage/>
-  
+     <CssBaseline />
+    {/* <LandingPage/> */}
+  <SideBar/>
        </>
   );
 }
