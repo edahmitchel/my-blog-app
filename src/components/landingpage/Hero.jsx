@@ -1,5 +1,5 @@
 import { Button, Stack, Typography } from '@mui/material'
-import { border, Box } from '@mui/system'
+import {Box } from '@mui/system'
 import React from 'react'
 
 const Hero = () => {

@@ -4,11 +4,9 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-import PostCard from "./PostCard";
-import SingleCard from "./SingleCard";
-import { Divider } from "@mui/material";
+import PostCard from "../PostCard";
 
-export default function TabAreaPosts() {
+export default function TabAreaNotif() {
   const [value, setValue] = React.useState("1");
 
   const handleChange = (event, newValue) => {
@@ -20,8 +18,8 @@ export default function TabAreaPosts() {
       <TabContext value={value}>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <TabList onChange={handleChange} aria-label="lab API tabs example" >
-            <Tab label="My posts" value="1" sx={{textlign:"start"}} />
-            <Tab label="Saved Posts" value="2" />
+            <Tab label="comments" value="1" sx={{textlign:"start"}} />
+            <Tab label="likes" value="2" />
           </TabList>
         </Box>
         <TabPanel value="1" sx={{border:"1px solid red",padding:"0",margin:"0"}}>

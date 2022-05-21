@@ -1,6 +1,6 @@
 import React from 'react'
-import TabArea from '../components/TabArea'
-import Topics from '../components/Topics'
+import TabArea from '../components/mainpage/TabArea'
+import Topics from '../components/mainpage/Topics'
 
 const MainPage = () => {
   return (

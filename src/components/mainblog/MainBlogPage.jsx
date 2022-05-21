@@ -4,19 +4,15 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
-import { Button, TextField, InputAdornment } from "@mui/material";
-import DrawerSide from "./DrawerSide";
-import Topics from "./Topics";
-import { Search } from "@mui/icons-material";
-import TabArea from "./TabArea";
-import SingleCard from "./SingleCard";
-import BarTwo from "./BarTwo";
-import NotificationsPage from "../pages/NotificationsPage";
-import MainPage from "../pages/MainPage";
+import DrawerSide from "../DrawerSide";
+import SecondSection from "../secondsection/SecondSection";
+import NotificationsPage from "../../pages/NotificationsPage";
+import MainPage from "../../pages/MainPage";
+import Posts from "../../pages/Posts";
 
 // const drawerWidth = 80;
 
-export default function SideBar() {
+export default function MainBlogPage() {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
@@ -44,6 +40,7 @@ export default function SideBar() {
           position: "sticky",overflowY:"scroll",
         }}
       >
+        <Posts/>
         {/* <MainPage/> */}
        <NotificationsPage/>
       </Box>
@@ -57,7 +54,7 @@ export default function SideBar() {
           padding: "0 20px",border:"1px solid purple",overflowY:"scroll"
         }}
       >
-        <BarTwo />
+        <SecondSection />
       </Box>
      </Box>
     </Box>

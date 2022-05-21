@@ -1,5 +1,5 @@
 import "./App.css";
-import SideBar from "./components/SideBar";
+import MainBlogPage from "./components/mainblog/MainBlogPage";
 import LandingPage from "./pages/LandingPage";
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -10,7 +10,7 @@ function App() {
     <>
      <CssBaseline />
     {/* <LandingPage/> */}
-  <SideBar/>
+  <MainBlogPage/>
        </>
   );
 }

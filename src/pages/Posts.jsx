@@ -1,5 +1,5 @@
 import React from 'react'
-import TabAreaPosts from '../components/TabAreaPost'
+import TabAreaPosts from '../components/postspage/TabAreaPost'
 import { Typography } from '@mui/material'
 
 const Posts = () => {

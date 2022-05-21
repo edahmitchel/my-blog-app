@@ -1,19 +1,12 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import CssBaseline from "@mui/material/CssBaseline";
-import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Divider from "@mui/material/Divider";
-import { Button, TextField, InputAdornment,startAdornment } from "@mui/material";
-import DrawerSide from "./DrawerSide";
-import Topics from "./Topics";
+import { Button, TextField, InputAdornment } from "@mui/material";
 import { Search } from "@mui/icons-material";
-import TabArea from "./TabArea";
-import SingleCard from "./SingleCard";
-import SecondSecCard from "./SecondSecCard";
-import ProfileCard from "./ProfileCard";
+import SecondSecCard from "../SecondSecCard";
+import ProfileCard from "../ProfileCard";
 
-const BarTwo = () => {
+const SecondSection = () => {
   return (
     <>
     
@@ -82,4 +75,4 @@ const BarTwo = () => {
   )
 }
 
-export default BarTwo
+export default SecondSection

@@ -5,7 +5,7 @@ import { Google } from '@mui/icons-material'
 // import Slide from '@material-ui/core/Slide';
 import { forwardRef } from 'react';
 import {Typography, Button, Card, Dialog, Slide,CardHeader,IconButton } from '@mui/material';
-import GetStartedModal from './GetStartedModal';
+import GetStartedModal from '../GetStartedModal';
 import { Stack } from '@mui/material';
 import { CardContent } from '@mui/material';
 const Transition = forwardRef(function Transition(props, ref) {

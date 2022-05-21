@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material'
 import React from 'react'
-import TabAreaNotif from '../components/TabAreaNotif'
+import TabAreaNotif from '../components/notificationspage/TabAreaNotif'
 
 const NotificationsPage = () => {
   return (
