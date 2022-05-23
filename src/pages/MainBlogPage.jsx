@@ -4,11 +4,12 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
-import DrawerSide from "../DrawerSide";
-import SecondSection from "../secondsection/SecondSection";
-import NotificationsPage from "../../pages/NotificationsPage";
-import MainPage from "../../pages/MainPage";
-import Posts from "../../pages/Posts";
+import DrawerSide from "../components/DrawerSide";
+import SecondSection from "../components/secondsection/SecondSection";
+import NotificationsPage from "./NotificationsPage";
+import MainPage from "./MainPage";
+import Posts from "./Posts";
+import { Outlet } from "react-router-dom";
 
 // const drawerWidth = 80;
 
@@ -40,9 +41,10 @@ export default function MainBlogPage() {
           position: "sticky",overflowY:"scroll",
         }}
       >
-        <Posts/>
+        <Outlet/>
+        {/* <Posts/> */}
         {/* <MainPage/> */}
-       <NotificationsPage/>
+       {/* <NotificationsPage/> */}
       </Box>
       <Divider />
       <Box
